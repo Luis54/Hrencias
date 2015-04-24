@@ -21,7 +21,7 @@ public class ProfesorInterino extends Profesor {
 	@Override
 	public String toString() {
 		return "ProfesorInterino [tiempoContrato=" + tiempoContrato
-				+ ", toString()=" + super.toString() + "]";
+				+ " " + super.toString() + "]";
 	}
 	
 }

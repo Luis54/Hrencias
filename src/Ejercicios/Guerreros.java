@@ -12,7 +12,7 @@ public class Guerreros extends Personajes {
 
 	public String combatir(int energiaCombatir){
 		nEnergia=nEnergia-energiaCombatir;
-		return arma+energiaCombatir;
+		return arma+getnEnergia();
 	}
 
 	@Override

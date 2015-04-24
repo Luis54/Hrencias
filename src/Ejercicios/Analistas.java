@@ -8,10 +8,15 @@ public class Analistas extends InformaticosAbs{
 		this.especialidad = especialidad;
 	}
 	
-	public double pagarSueldo(double horas){
-		return getSueldo()*horas;
-	}
 	
+
+	@Override
+	public double pagarSueldo(double horas) {
+		// TODO Auto-generated method stub
+		return super.pagarSueldo(horas);
+	}
+
+
 
 	@Override
 	public String toString() {

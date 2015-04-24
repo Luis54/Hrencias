@@ -9,8 +9,12 @@ public class Personajes {
 		this.nombre = nombre;
 		this.nEnergia = nEnergia;
 	}
-	public int alimentarse(int energia){
-		return nEnergia = energia;
+	public void alimentarse(int energia){
+		nEnergia+= energia;
+	}
+	
+	public int getnEnergia() {
+		return nEnergia;
 	}
 	@Override
 	public String toString() {

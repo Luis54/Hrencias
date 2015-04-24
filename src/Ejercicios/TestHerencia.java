@@ -12,6 +12,7 @@ public class TestHerencia {
 		lista.insertarProfesores(pI);
 		for (Profesor profesor : lista.getListaProfesores()) {
 			System.out.println(profesor);
+			System.out.println(profesor.getNombre());
 			
 		}
 	}
